@@ -8,7 +8,7 @@ const app = express();
 app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
-sgMail.setApiKey("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");
+sgMail.setApiKey("*************************************");
 
 app.post("/send",function(req,res){
 

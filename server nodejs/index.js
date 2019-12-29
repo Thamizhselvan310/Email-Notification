@@ -8,7 +8,7 @@ const app = express();
 app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
-sgMail.setApiKey(***************************);
+sgMail.setApiKey(***************************); //use own apikey in sendgrid
 
 app.post("/send",function(req,res){
 
